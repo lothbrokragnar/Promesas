@@ -1,0 +1,56 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Globales */
+
+a {
+    text-decoration: none;
+    color: #037bc0;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Header y Navegacion */
+
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nombre-sitio span {
+    color: #037bc0;
+}
+
+.contenedor-navegacion {
+    border-top: 1px solid #e1e1e1;
+}
+
+.nav-principal {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.hero {
+    background-image: url(../img/promesas.png);
+    height: 827px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+
+body {
+    text-align: center;
+}
